@@ -1,0 +1,33 @@
+// Chatbot's brain
+! version = 2.0
+
+! sub who's = who is
+! sub for= of
+
++ *
+- Who are you 17?
+
++ [*] skr 631 [*]
+- Who's there with you ?
+
++ *
+% who is there with you
+- what are you and <star1> doing ?
+
++ *
+% * doing
+- You guys enjoy  
+
++ [*] sales (figure|figures) of *
+- IOCLdealer:<star2>
+
++ [*] sales target [*]
+- For MS or HSD
+- Do you need the figures for MS or HSD
+- Is it for MS or HSD
+- I can help you with that , but is it MS or HSD 
+
++ *
+% * [*](ms|hsd)
+- IOCL:<star1>
+

@@ -4,11 +4,13 @@
   "description": "IndianOil Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node rivescript.js"
   },
   "author": "Rony John",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "rivescript": "^1.18.0"
   }
 }
